@@ -1,91 +1,48 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <title>Bent Creek Ceramics</title>
-         </head>
-    <body>
 
-<style>
+<head>
+  <title>Bent Creek Ceramics</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/bent-creek-logo.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
+</head>
 
-        @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i');
-
-</style>
-
-    <nav class="nav-bar">
-            <img src= "images/bent-creek-logo.png" class="logo">
-     <div>   
-        <ul> 
-        
-            <li><a href="HOME">HOME</a></li>
-            <li><a href="ABOUT">ABOUT</a></li>
-            <li><a href="NEWSLETTER">NEWSLETTER</a></li>
-       
-
-        </ul>
-    </div>
-    </nav>
-
-
-
-
-        <h1>Bent Creek Ceramics</h1>
-        <h2>Where art meets nature</h2> 
-<section>
-
- <div class="pic_row_one">
-       
-    <figure>
-        <img src="images/product-1.jpg" id="plants">
-            <figcaption>Endless Possibilities</figcaption>
-    </figure>    
-    
-    <figure>       
-        <img src="images/product-2.jpg" id="bowls">
-            <figcaption>Sets</figcaption>
-    </figure>    
-    
-    <figure>    
-        <img src="images/product-3.jpg" id="tray">
-            <figcaption>Textures</figcaption>
-    </figure>
-     
- </div> 
-</section>  
-  
-
-<div class="pic_row_two"> 
-    <figure>    
-        <img src="images/product-4.jpg" id="tea">
-            <figcaption>Tea Time</figcaption> 
-    </figure>    
-    
-    <figure>        
-        <img src="images/product-5.jpg" id="jar">
-            <figcaption>Jars and Containers</figcaption>
-    </figure>    
-    
-    <figure>   
-        <img src="images/product-6.jpg" id="saki">
-            <figcaption>Wasabi and Saki</figcaption>
-    </figure>    
-    
-    <figure>        
-        <img src="images/product-7.jpg" id="sun">
-            <figcaption>Sippin' on Sunshine</figcaption>
-    </figure>
+<body>
+  <header>
+    <nav>
+      <div class="trigger">
+    <img id="mover" src="images/bent-creek-logo.png" alt="clay pot logo">
   </div>
-
-   
-
-
-    <footer>
-        <h3>Copyright 2017, Bent Creek Ceramics</h3>
-    </footer>
-
-
-
-    </body>
+      <ul>
+        <li><a href="index.html" id="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="index_page">
+    <h1>Bent Creek Ceramics</h1>
+    <h3>Where art meets nature</h3>
+    <div class="image_tiles">
+      <ul class="top_row">
+        <li id="endless_possiblities"><p>Endless Possibilities</p></li>
+        <li id="sets"><p>Sets</p></li>
+        <li id="textures"><p>Textures</p></li>
+      </ul>
+      <ul class="bottom_row">
+        <li id="tea_time"><p>Tea Time</p></li>
+        <li id=jars_and_containers><p>Jars and Containers</p></li>
+        <li id="wasabi_and_saki"><p>Wasabi and Saki</p></li>
+        <li id="sippin_on_sunshine"><p>Sippin' on Sunshine</p></li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <p id=footer>Copyright 2017, Bent Creek Ceramics</p>
+  </footer>
+</body>
 
 </html>
 
